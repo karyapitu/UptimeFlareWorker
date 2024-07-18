@@ -23,11 +23,11 @@ const workerConfig = {
       // `method` should be a valid HTTP Method
       method: 'POST',
       // `target` is a valid URL
-      target: 'https://example.com',
+      target: 'https://vlesscf.us.kg',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
       tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://example.com',
+      statusPageLink: 'https://vlesscf.us.kg',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
@@ -43,7 +43,7 @@ const workerConfig = {
       responseKeyword: 'success',
       // [OPTIONAL] if specified, the check will run in your specified region,
       // refer to docs https://github.com/lyc8503/UptimeFlare/wiki/Geo-specific-checks-setup before setting this value
-      checkLocationWorkerRoute: 'https://xxx.example.com',
+      checkLocationWorkerRoute: 'https://vlesscf.us.kg',
     },
     // Example TCP Monitor
     {
@@ -52,9 +52,9 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
-      target: '1.2.3.4:22',
+      target: 'https://alibaba.vlesscf.us.kg',
       tooltip: 'My production server SSH',
-      statusPageLink: 'https://example.com',
+      statusPageLink: 'https://alibaba.vlesscf.us.kg',
       timeout: 5000,
     },
   ],
